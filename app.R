@@ -1,3 +1,13 @@
+## this file is adapted from what originally was a .rmd file with multiple chunks. Apologies for the mess :)
+
+## this app/github repos is meant mostly for demo purposes - this is the app as used for our meta-analysis of baseline bias in ABM RCTs (https://psyarxiv.com/rfjup). 
+
+# by now, I have developed slightly more streamlined/user friendly/less code messy versions of this app for another project. 
+# Anyone interestd in adapting this code - feel free to contact me for the further developed code (https://github.com/AWKruijt/; mail@awkruijt.nl; twitter: @t_awkr)
+
+
+
+
 ### first a bunch of preparatory stuff: 
 
 #scopus search string: (TITLE-ABS-KEY (( "dot probe" OR "probe detection task"
