@@ -190,8 +190,8 @@ shinyApp(
                 fluidRow( column(12, numericInput("m_BI_pre_ctrl", "mean BL BI control:", value = "NA"))),
                 fluidRow( column(12, numericInput("SD_BI_pre_ctrl", "SD BL BI control:", value = "NA"))),
               
-                h4("ES from statistics"),
-                h5("only if above BI values are not reported but some kind of statistic for threat BI relative to '0' (!) is. I haven't actually implemented this completely - first wanted to see if such cases pop up and if so which type (F/t/other)" ),
+                h4("ES from statistics?"),
+                h5("input here only if above BI values are not reported but some kind of statistic for threat BI relative to '0' (!) is. I haven't actually implemented this completely - first wanted to see if such cases pop up and if so which type (F/t/other)" ),
                  br(),
                 fluidRow( column(12,h5("statistic"), selectInput('AvailableStatifNoGroupVals', ' ', c(Choose='', c("F ANOVA", "F ANCOVA", "t-test", "Chi squared", "log odds")))))),
             
@@ -206,7 +206,7 @@ shinyApp(
               textInput("asssessor_Comments", "enter any additional comments here:", " "), br(),
               actionButton("submit_II", "submit", class = "btn-primary"), br(), br(),
               checkboxInput("consider_Data_Request", "Has unreported BI been assessed at BL that could be requested?", value = FALSE), br(),
-              h5("Indicate ohter designs here:"),  
+              h5("Indicate other designs here:"),  
               checkboxInput("sharedCntrlGrp", "one control group with two or more separate disorder patient groups", value = FALSE), br(),
               checkboxInput("addSecondStudyforSamePaper", "check this box if the paper reports on two studies - score the first, a new row for the second study will be added", value = FALSE), br(),
 
