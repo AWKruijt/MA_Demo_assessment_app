@@ -6,6 +6,8 @@ The .rmd file in this repos is the originally used script. The file App.R is a s
 
 By now, I have further developed similar code based on the here presented code for a new project. Anyone interested in using this code: feel free to contact me for updated/more streamlined/user-friendlier code. 
 
+Run locally with command shiny::runGitHub("AWKruijt/MA_Demo_assessment_app")
+
 Screenshots:
 
 ![stage I](https://github.com/AWKruijt/MA_Demo_assessment_app/blob/master/screenshots/stage%20I%20screenshot.png)
